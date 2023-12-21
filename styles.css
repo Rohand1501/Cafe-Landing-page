@@ -1,0 +1,253 @@
+/* Reset default browser styles */
+body,
+h1,
+h2,
+p,
+ul,
+li,
+img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: "Georgia", "Times New Roman", serif;
+  background: #f2e0d4; /* Soft beige background */
+  color: #452e20; /* Dark brown text */
+}
+
+header {
+  background-color: #826644; /* Rich brown header background */
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background-color: #a48f6f; /* Muted brown navigation background */
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #452e20;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+.image-container {
+  text-align: center;
+  background-color: #f2e0d4;
+}
+
+.logo {
+  max-width: 100%;
+  width: 500px;
+  height: 200px; /* Retaining your original image heights and widths */
+}
+
+.menu {
+  background-color: #d8c6ad; /* Light brown menu background */
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.menu-container {
+  text-align: center;
+  background-color: #f2e0d4;
+}
+
+footer {
+  background-color: #826644;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Add these styles to your existing CSS */
+
+.menu-scroll {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  scroll-snap-type: x mandatory;
+  gap: 20px;
+  padding: 20px;
+}
+
+.menu-item {
+  flex: 0 0 calc(33.33% - 20px);
+  scroll-snap-align: start;
+  border: 1px solid #826644; /* Dark brown border */
+  color: #452e20;
+  text-align: center;
+  padding: 10px;
+  background-color: #d8c6ad; /* Light brown menu item background */
+  opacity: 0.9;
+}
+
+.menu-item img {
+  max-width: 100%;
+  height: 300px; /* Retaining your original image heights and widths */
+}
+
+.menu-item h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Responsive design changes */
+@media (max-width: 768px) {
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav li {
+    margin: 10px 0;
+  }
+
+  .menu-scroll {
+    gap: 10px;
+  }
+
+  .menu-item {
+    flex: 0 0 calc(50% - 10px);
+  }
+}
+
+/* Testimonial styling */
+.testimonials {
+  background-color: #d8c6ad;
+  padding: 20px;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.testimonial-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  width: 95.5%;
+  margin-bottom: 20px;
+}
+
+.testimonial {
+  flex: 0 0 calc(50% - 20px);
+  border: 1px solid #826644;
+  padding: 15px;
+  background-color: #f2e0d4;
+  opacity: 0.9;
+  text-align: center;
+  color: #452e20;
+}
+
+.testimonial p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.testimonial .author {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Reservation styling */
+.reservation {
+  background-color: #d8c6ad;
+  padding: 20px;
+  text-align: center;
+}
+
+.reservation h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.reservation form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.reservation label {
+  font-weight: bold;
+}
+
+.reservation input {
+  padding: 10px;
+  border: 1px solid #826644;
+  border-radius: 5px;
+}
+
+.reservation button {
+  background-color: #826644;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reservation button:hover {
+  background-color: #452e20; /* Darker brown on hover */
+}
+
+/* Contact styling */
+.contact {
+  background-color: #d8c6ad;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.contact p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+.contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact li {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #826644; /* Brown link color */
+  font-weight: bold;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}

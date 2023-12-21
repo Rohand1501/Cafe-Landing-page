@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Gradient Coffee Place</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Gradient Coffee Place</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#reservation">Reservations</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <!-- <section class="image-container">
+        <img
+          class="logo"
+          src="gradient-coffee-high-resolution-logo.png"
+          alt="Restaurant Image 1"
+        />
+      </section> -->
+      <section class="menu" id="menu">
+        <h2>Our Menu</h2>
+        <section class="menu-container">
+          <!-- Create a container for the horizontal scroller menu -->
+          <div class="menu-scroll">
+            <div class="menu-item">
+              <img src="coffee-1.jpg" alt="Gradient Coffee 1" />
+              <h3>Gradient Coffee 1</h3>
+              <p>
+                A delightful blend of hot coffee, sugar, and milk gradually
+                cooled to perfection.
+              </p>
+            </div>
+
+            <div class="menu-item">
+              <img src="coffee-2.avif" alt="Gradient Coffee 2" />
+              <h3>Gradient Coffee 2</h3>
+              <p>
+                Experience the rich flavors of coffee evolving as it cools with
+                every sip.
+              </p>
+            </div>
+            <!-- Add more menu items (up to a total of 6) -->
+          </div>
+        </section>
+      </section>
+      <section class="reservation" id="reservation">
+        <h2>Make a Reservation</h2>
+        <form id="reservation-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" required />
+
+          <label for="time">Time:</label>
+          <input type="time" id="time" name="time" required />
+
+          <label for="guests">Number of Guests:</label>
+          <input type="number" id="guests" name="guests" required />
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+
+      <section class="about">
+        <h2>About Us</h2>
+        <p>
+          Welcome to Gradient Coffee Place! We are passionate about bringing you
+          the finest coffee experience. Our unique gradient coffee style allows
+          you to enjoy coffee at all temperatures, savoring every sip. Our team
+          is dedicated to crafting the perfect cup of coffee for you.
+        </p>
+      </section>
+      <!-- Testimonial Section -->
+      <section class="testimonials">
+        <h2>Customer Testimonials</h2>
+
+        <div class="testimonial-box">
+          <div class="testimonial">
+            <p>
+              "The coffee here is amazing! I love the unique gradient style that
+              allows me to savor every sip."
+            </p>
+            <p class="author">- John Doe</p>
+          </div>
+          <div class="testimonial">
+            <p>
+              "This place serves the best coffee. The gradual cooling of the
+              coffee is a unique experience I haven't found anywhere else."
+            </p>
+            <p class="author">- Jane Smith</p>
+          </div>
+        </div>
+
+        <div class="testimonial-box">
+          <div class="testimonial">
+            <p>
+              "Another testimonial here about the great coffee and service."
+            </p>
+            <p class="author">- Testimonial Author</p>
+          </div>
+          <div class="testimonial">
+            <p>"One more testimonial to complete this row of testimonials."</p>
+            <p class="author">- Another Author</p>
+          </div>
+        </div>
+
+        <div class="testimonial-box">
+          <div class="testimonial">
+            <p>
+              "Yet another satisfied customer's testimonial. The coffee is
+              top-notch!"
+            </p>
+            <p class="author">- Happy Customer</p>
+          </div>
+          <div class="testimonial">
+            <p>
+              "I can't get enough of the coffee here. It's a delightful
+              experience every time."
+            </p>
+            <p class="author">- Coffee Lover</p>
+          </div>
+        </div>
+
+        <div class="testimonial-box">
+          <div class="testimonial">
+            <p>
+              "I've tried coffee all over the world, but this place is truly
+              unique."
+            </p>
+            <p class="author">- World Traveler</p>
+          </div>
+          <div class="testimonial">
+            <p>
+              "The coffee is great, and the service is excellent. Highly
+              recommended."
+            </p>
+            <p class="author">- Happy Customer</p>
+          </div>
+        </div>
+
+        <div class="testimonial-box">
+          <div class="testimonial">
+            <p>
+              "I keep coming back for more. The coffee's exceptional, and the
+              staff is friendly."
+            </p>
+            <p class="author">- Coffee Enthusiast</p>
+          </div>
+          <div class="testimonial">
+            <p>
+              "The perfect coffee experience. You won't find anything like it
+              elsewhere."
+            </p>
+            <p class="author">- Satisfied Customer</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Gradient Coffee Place. All rights reserved.</p>
+      <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>
+          If you have any questions or would like to get in touch, feel free to
+          reach out to us using the contact details below.
+        </p>
+        <ul>
+          <li>Email: info@gradientcoffeeplace.com</li>
+          <li>Phone: +1 (123) 456-7890</li>
+          <li>Address: 123 Coffee Street, Cafeville</li>
+        </ul>
+      </section>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
